@@ -1,0 +1,220 @@
+/* -------------------------------------------*/
+/* SET UP */
+/* -------------------------------------------*/
+:root {
+  --main-black: black;
+  --main-blue: black;
+  /* --second-blue: #2b7a78; */
+  --main-white: #ffffff;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+/* -------------------------------------------*/
+/* NAVBAR */
+/* -------------------------------------------*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  margin: 0px;
+  height: 10vh;
+  width: 100vw;
+}
+
+.nav h2 {
+  display: inline-block;
+  color: var(--main-black);
+  padding: 10px;
+  padding-left: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.nav ul {
+  float: right;
+  margin-top: 35px;
+  margin-right: 40px;
+  list-style-type: none;
+  color: var(--main-black);
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.nav li {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.nav a,
+.nav:active,
+.nav:visited {
+  border-bottom: none;
+  text-decoration: none;
+  color: var(--main-black);
+}
+
+.nav a:hover {
+  border-bottom: 3px solid #32a852;
+  transition: 0.1s;
+}
+
+.projects {
+  display: inline-block;
+  text-align: center;
+  height: 150vh;
+  width: 100vw;
+  background-color: #32a852;
+}
+
+.project {
+  float: left;
+}
+
+.project a, .project a:visited, .project a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.projects h2 {
+  color: var(--main-white);
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 60px;
+}
+
+.project-image {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  width: 30%;
+}
+
+.project-image img {
+  width: 50%;
+  height: auto;
+}
+
+.project-calendar {
+  text-align: center;
+  display: block;
+  padding: 0px;
+  margin: 0 auto;
+  background-color: black;
+  width: 30%;
+}
+
+.project-calendar img {
+  width: 100%;
+  height: auto;
+}
+
+.project-description {
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background-color: #a83a32;
+  width: 30%;
+}
+
+.project-description p {
+  color: var(--main-white);
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: left;
+  margin: 0px;
+  padding: 15px;
+}
+
+.project ul {
+  padding-top: 0px;
+  list-style-type: square;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: left;
+  padding-left: 15%;
+  padding-bottom: 20px;
+}
+
+.project p {
+  padding-bottom: 0;
+}
+
+.about-me {
+  height: 45vh;
+  background-color: #32a852;
+  text-align: center;
+}
+
+.about-me h1 {
+  padding-top: 5vh;
+  color: var(--main-white);
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.about-me p {
+  color: var(--main-white);
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 15px;
+  display: block;
+  margin: 0 auto;
+  font-weight: 300;
+  width: 60%;
+  line-height: 30px;
+}
+
+.contact-me {
+  overflow-y: hidden;
+  height: 50vh;
+  background-color: #3289a8;
+  text-align: center;
+}
+
+.contact-me h1 {
+  padding-top: 5vh;
+  color: var(--main-white);
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.contact-me i {
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contact-me p {
+  color: var(--main-white);
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+  margin-bottom: 7vh;
+}
